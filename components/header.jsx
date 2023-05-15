@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image';
+import logo from '../app/images/logo.png';
 
 const header = () => {
   return (
@@ -24,7 +26,7 @@ const header = () => {
                             <nav className="navbar navbar-expand-lg p-0">
                                 <div className="col-12 col-lg-2 d-flex d-lg-block align-items-center justify-content-between">
                                     <a href="index.html" className="navbar-brand p-0 me-0" rel="home" aria-current="page">
-                                        <img src="images/logo.png" className="custom-logo img-fluid" alt="" />
+                                        <Image src={logo} height={500} width={500} className="custom-logo img-fluid" alt="" />
                                     </a>
                                     <button className="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                                         <span className="open-close-button position-relative">
@@ -39,7 +41,7 @@ const header = () => {
                                             <li className="menu-item"><a href="about.html">About</a></li>
                                             <li className="menu-item"><a href="faq.html">FAQ</a></li>
                                             <li className="menu-item"><a href="contact.html">Contact</a></li>
-                                            <li className="menu-item menu-button"><a href="product-detail.html">Order Now</a></li>
+                                            <li className="menu-item menu-button"><a href="/products">Order Now</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -51,6 +53,6 @@ const header = () => {
         </section>
     </header>
   )
-}
+} 
 
 export default header
