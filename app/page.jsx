@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import checkIcon from './images/check-icon.svg';
-import aboutImg from './images/about-image.jpg';
-import submitPaper from './images/submit-paper.jpg';
-import map from './images/map.png';
-import creditCart from './images/shopping-credit-card.jpg';
-import NavigatorImg from './images/The-Navigator-Programme.jpg';
-import deviceprotectionbundles from './images/deviceprotectionbundles.jpg';
+import Image from `next/image`;
+import checkIcon from `./images/check-icon.svg`;
+import aboutImg from `./images/about-image.jpg`;
+import submitPaper from `./images/submit-paper.jpg`;
+import map from `./images/map.png`;
+import creditCart from `./images/shopping-credit-card.jpg`;
+import NavigatorImg from `./images/The-Navigator-Programme.jpg`;
+import deviceprotectionbundles from `./images/deviceprotectionbundles.jpg`;
 
 
 export default function Home() {
@@ -102,8 +102,8 @@ export default function Home() {
                     <div className="position-relative process-inner-block">
                       <Image src={submitPaper} width={500} height={500} className="img-fluid w-100" alt="Process Image" />
                       <div className="process-content">
-                        <h3 className="process-title font-montserrat font-24 fw-bold d-flex align-items-center pb-1"><span>1</span>Entity's Creation</h3>
-                        <p className="text-black mb-0">Choose your entity's creation state.</p>
+                        <h3 className="process-title font-montserrat font-24 fw-bold d-flex align-items-center pb-1"><span>1</span>Entity`s Creation</h3>
+                        <p className="text-black mb-0">Choose your entity`s creation state.</p>
                       </div>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ export default function Home() {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                       <div className="accordion-body">
-                      <p>Federal labor law posters are generally the same for most businesses across the country. This includes the federal minimum wage, Employee Polygraph Protection, OSHA, FMLA, USERRA, and EEO. As far as state mandated posters, they vary from state to state. You can usually find out what is required by a individual state by visiting its Department of Labor Site. LLCS Labor, has made it simple so you can just choose your state and it will show you the required labor law posters for your state.You can view your state's requirements by clicking <a href="#">here.</a></p>
+                      <p>Federal labor law posters are generally the same for most businesses across the country. This includes the federal minimum wage, Employee Polygraph Protection, OSHA, FMLA, USERRA, and EEO. As far as state mandated posters, they vary from state to state. You can usually find out what is required by a individual state by visiting its Department of Labor Site. LLCS Labor, has made it simple so you can just choose your state and it will show you the required labor law posters for your state.You can view your state`s requirements by clicking <a href="#">here.</a></p>
                       </div>
                     </div>
                   </div>
@@ -195,7 +195,7 @@ export default function Home() {
               <div className="col-lg-6 col-xl-5 two-right-col">
                 <h3 className="font-21 text-uppercase text-bright-sky-blue mb-3">STAY COMPLIANT IN 2023</h3>
                 <h2 className="font-48 mb-3">Stay Out Of Trouble</h2>
-                <p>Does your business have the right labor law posters? Many businesses don't. But being compliant is easy when you work with LLCS Labor!</p>
+                <p>Does your business have the right labor law posters? Many businesses don`t. But being compliant is easy when you work with LLCS Labor!</p>
                 <ul>
                   <li>We provide you with all the posters that are mandated by state and federal law as well as OSHA.</li>
                   <li>Our legal expertise gives you peace of mind that all your bases are covered when it comes to compliance.</li>
