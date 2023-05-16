@@ -38,7 +38,7 @@ const header = () => {
                                     <div id="navbarSupportedContent" className="main-menu collapse navbar-collapse justify-content-lg-end">
                                         <ul className="navbar-nav align-items-lg-center">
                                             <li className="menu-item current-menu-item"><a href="index.html">Home</a></li>
-                                            <li className="menu-item"><a href="about.html">About</a></li>
+                                            <li className="menu-item"><a href="/about">About</a></li>
                                             <li className="menu-item"><a href="faq.html">FAQ</a></li>
                                             <li className="menu-item"><a href="contact.html">Contact</a></li>
                                             <li className="menu-item menu-button"><a href="/products">Order Now</a></li>
