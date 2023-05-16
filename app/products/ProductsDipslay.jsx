@@ -3,7 +3,7 @@ import React from "react";
 
 const fetchProducts = async (token) => {
   try {
-    const res = await fetch(`/api/products`, {
+    const res = await fetch('https://nexjdemo.netlify.app/api/products', {
       cache: "no-cache",
     });
     const data = await res.json();
