@@ -29,7 +29,7 @@ const ProductsDipslay = async () => {
 					<h4 className="mb-0 font-18">from $ {i.price}</h4>
 				</div>
 				<div className="text-end pe-0">
-					<button className="sky-blue-button select-box border-0">Select</button>
+					<button className="sky-blue-button  select-box border-0">Select</button>
 				</div>
 			</div>
 		))}

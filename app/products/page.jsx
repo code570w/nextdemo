@@ -41,7 +41,6 @@ export default async function Products() {
 						<Image src={florida} width={500} height={500}  className="img-fluid w-100" alt="Labor Law" />
 					</div>
 					<div className="col-lg-6 product-right-col">
-						<h2 className="font-48 mb-3 pe-lg-5 me-lg-5">Florida All-In-One Labor Law Poster</h2>
 						<div className="two-col-content pe-lg-0">
 							<p>Our company ensures that the poster you receive meets all the current Federal and State Mandated Labor Law Poster Requirements.</p>
 						</div>

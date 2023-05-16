@@ -195,7 +195,7 @@ export default function Home() {
               <div className="col-lg-6 col-xl-5 two-right-col">
                 <h3 className="font-21 text-uppercase text-bright-sky-blue mb-3">STAY COMPLIANT IN 2023</h3>
                 <h2 className="font-48 mb-3">Stay Out Of Trouble</h2>
-                <p>Does your business have the right labor law posters? Many businesses don&apos;t. But being compliant is easy when you work with LLCS Labor!</p>
+                <p>Does your business have the  right labor law posters? Many businesses don&apos;t. But being compliant is easy when you work with LLCS Labor!</p>
                 <ul>
                   <li>We provide you with all the posters that are mandated by state and federal law as well as OSHA.</li>
                   <li>Our legal expertise gives you peace of mind that all your bases are covered when it comes to compliance.</li>
