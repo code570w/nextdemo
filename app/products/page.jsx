@@ -1,13 +1,8 @@
 import React, { Suspense } from "react";
 import Image from 'next/image';
-import checkIcon from '../images/check-icon.svg';
-import aboutImg from '../images/about-image.jpg';
-import submitPaper from '../images/submit-paper.jpg';
-import map from '../images/map.png';
-import creditCart from '../images/shopping-credit-card.jpg';
-import NavigatorImg from '../images/The-Navigator-Programme.jpg';
-import deviceprotectionbundles from '../images/deviceprotectionbundles.jpg';
+import checkIcon from '../images/check-icon-oval.svg';
 import ProductsDipslay from "./ProductsDipslay";
+import florida from '../images/florida-labor-law-poster.jpg';
 
 
 export default async function Products() {
@@ -43,7 +38,7 @@ export default async function Products() {
 			<div className="container">
 				<div className="row gx-xxl-5">
 					<div className="col-lg-5 offset-lg-1 product-left-col mb-4 mb-lg-0">
-						<image width={500} height={500} src="images/florida-labor-law-poster.jpg" className="img-fluid w-100" alt="Labor Law" />
+						<Image src={florida} width={500} height={500}  className="img-fluid w-100" alt="Labor Law" />
 					</div>
 					<div className="col-lg-6 product-right-col">
 						<h2 className="font-48 mb-3 pe-lg-5 me-lg-5">Florida All-In-One Labor Law Poster</h2>
@@ -58,7 +53,7 @@ export default async function Products() {
 							<div className="total-product-info d-flex align-items-center justify-content-between py-3 px-lg-4 px-3 mt-5">
 								<h3 className="font-24">Total <span className="total-price">$109.95</span></h3>
 								<div className="cart-info d-flex">
-									{/* <input type="number" id="quantity" className="input-qty font-Proxibold font-24" name="quantity" value="1" title="Qty" placeholder="" inputmode="numeric" autocomplete="off"> */}
+									<input type="number" id="quantity" className="input-qty font-Proxibold font-24" name="quantity" value="1" title="Qty" placeholder="" inputmode="numeric" autocomplete="off" />
 									<button type="submit" className="add-cart-btn sky-blue-button select-box border-0" name="add-to-cart">Add to Cart</button>
 								</div>
 							</div>
@@ -73,9 +68,9 @@ export default async function Products() {
 					<div className="col-lg-10">
 						<h2 className="font-36 mb-4 text-center">Product Details</h2>
 						<ul className="list-unstyled mb-0 d-lg-flex">
-							<li className="font-18 d-flex align-items-center"><Image width={500} height={500} src="images/check-icon-oval.svg" className="img-fluid list-icon me-3" alt="Check Icon" /> Includes all mandatory State, Federal &amp; OSHA Labor Law Posters.</li>
-							<li className="font-18 d-flex align-items-center"><Image width={500} height={500} src="images/check-icon-oval.svg" className="img-fluid list-icon me-3" alt="Check Icon" /> Includes all mandatory State, Federal &amp; OSHA Labor Law Posters.</li>
-							<li className="font-18 d-flex align-items-center"><Image width={500} height={500} src="images/check-icon-oval.svg" className="img-fluid list-icon me-3" alt="Check Icon" /> Includes all mandatory State, Federal &amp; OSHA Labor Law Posters.</li>
+							<li className="font-18 d-flex align-items-center"><Image width={500} height={500} src={checkIcon} className="img-fluid list-icon me-3" alt="Check Icon" /> Includes all mandatory State, Federal &amp; OSHA Labor Law Posters.</li>
+							<li className="font-18 d-flex align-items-center"><Image width={500} height={500} src={checkIcon} className="img-fluid list-icon me-3" alt="Check Icon" /> Includes all mandatory State, Federal &amp; OSHA Labor Law Posters.</li>
+							<li className="font-18 d-flex align-items-center"><Image width={500} height={500} src={checkIcon} className="img-fluid list-icon me-3" alt="Check Icon" /> Includes all mandatory State, Federal &amp; OSHA Labor Law Posters.</li>
 						</ul>
 					</div>
 				</div>
