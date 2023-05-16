@@ -104,16 +104,16 @@ export default async function Products() {
 								  <div className="accordion-body">
 									<p><b><u>Florida Required Posters Included:</u></b></p>
 									<ul>
-										<li>Florida's Reemployment Fraud</li>
-										<li>Florida's Law Prohibits Discrimination</li>
-										<li>Florida's EOL “Equal Opportunity Is The Law</li>
-										<li>Florida's Department of Economic Opportunity Division Workforce</li>
-										<li>Florida's Child Labor Laws</li>
-										<li>Florida's Notice to Employees Minimum Wage</li>
+										<li>Florida&apos;s Reemployment Fraud</li>
+										<li>Florida&apos;s Law Prohibits Discrimination</li>
+										<li>Florida&apos;s EOL “Equal Opportunity Is The Law</li>
+										<li>Florida&apos;s Department of Economic Opportunity Division Workforce</li>
+										<li>Florida&apos;s Child Labor Laws</li>
+										<li>Florida&apos;s Notice to Employees Minimum Wage</li>
 									</ul>
 									<p><b><u>Federal Required Posters Included:</u></b></p>
 									<ul>
-										<li>Osha Job Safety and Health It's The Law</li>
+										<li>Osha Job Safety and Health It&apos;s The Law</li>
 										<li>Employee Rights Under The Fair Labor Standard Act - Federal Minimum Wage</li>
 										<li>Employee Rights Under The Family and Medical Leave Act</li>
 										<li>Employee Rights Employee Polygraph Protection Act</li>
