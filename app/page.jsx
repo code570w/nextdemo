@@ -213,7 +213,7 @@ export default function Home() {
                 <form className="inline-form">
                   <div className="form-control-col">
                     <select className="form-select" aria-label="Default select example">
-                      <option selected>Select Your State</option>
+                      <option>Select Your State</option>
                       <option value="1">One</option>
                       <option value="2">Two</option>
                       <option value="3">Three</option>

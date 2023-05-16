@@ -20,7 +20,7 @@ export default async function Products() {
 						<form className="inline-form">
 							<div className="form-control-col">
 								<select className="form-select" aria-label="Default select example">
-									<option selected="">Select Your State</option>
+									<option>Select Your State</option>
 									<option value="1">One</option>
 									<option value="2">Two</option>
 									<option value="3">Three</option>
@@ -52,7 +52,7 @@ export default async function Products() {
 							<div className="total-product-info d-flex align-items-center justify-content-between py-3 px-lg-4 px-3 mt-5">
 								<h3 className="font-24">Total <span className="total-price">$109.95</span></h3>
 								<div className="cart-info d-flex">
-									<input type="number" id="quantity" className="input-qty font-Proxibold font-24" name="quantity" value="1" title="Qty" placeholder="" inputmode="numeric" autocomplete="off" />
+									<input type="text" inputMode="numeric" id="quantity" className="input-qty font-Proxibold font-24" name="quantity" value="1" title="Qty" placeholder=""  autoComplete="off" readOnly />
 									<button type="submit" className="add-cart-btn sky-blue-button select-box border-0" name="add-to-cart">Add to Cart</button>
 								</div>
 							</div>
